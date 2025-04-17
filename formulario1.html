@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="estilof.css">
+</head>
+<body class="fondo" >
+    <div >
+    <form >
+    <table border="0" >
+        <tr ><td colspan="10" style="font-size: 36px;">-LOGIN-</td></tr><br>
+    
+        <tr><td colspan="10" style="font-size: 20px;">REGISTRO DE CLIENTES</td></tr>
+        <tr>
+        <td colspan="4"><label>NOMBRE:</label></td>
+		<td colspan="6"><input type="text" id=" nombre" size="81px" required placeholder="ingrese el nombre" ></td>
+        </tr>
+        <tr>
+            <td colspan="4"><label>EDAD:</label></td>
+            <td colspan="4"><input type="number" id="edad" required></td>
+            <td><label>TELEFONO:</label></td>
+            <td colspan="4"><input type="number" id="telefono" required></td>
+        </tr>
+        <tr>
+                <td colspan="4"><label >SEXO:</label>
+                <td colspan="1"><select id="categoria" required  >
+                    <option>masculino</option>
+                    <option>femenino</option>
+                    <option>binario</option>
+                    <option>no binario</option>
+                    <option>otro</option>
+                </select></td>
+            </td>
+                <td colspan="4"><label>ESTADO CIVIL:</label>
+                <td ><select id="estado" required whitd >
+                    <option>casado/a</option>
+                    <option>soltero/a</option>
+                    <option>divorciado/a</option>
+                    <option>viudo/a</option>
+
+                </select></td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><label >CARGO:</label>
+            <td colspan="1"><select id="cargo" required  >
+                <option>Ing. de SOftware</option>
+                <option>Ing. de Ciberseguridad</option>
+                <option>Gerente de TI</option>
+                <option>Diseñador UI/UX</option>
+                <option>Ingeniero de Redes</option>
+            </select></td>
+        </td>
+        <td colspan="4"><label>SUELDO:</label></td>
+        <td colspan="4"><input type="number" id="sueldo" required></td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            <label>FECHA DE INGRESO:</label>
+            <input type="date" id="fecha" required>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            <label>OBSERVACIONES:</label ><br>
+            <textarea id="ob" cols="100" rows="9" required>
+            </textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            <input class="boton" type="submit" value="ENVIAR">
+            <input class="boton" type="reset" value="LIMPIAR">
+        </td>
+    </tr>
+
+    
+    </table>
+    </form>
+</div>
+</body>
+</html>
